@@ -3,13 +3,21 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>uaimarquez · Sites simples para quem quer aprender</title>
-  <meta name="description" content="Portfólio de uaimarquez: sites simples e fáceis de usar, feitos com HTML, CSS e JavaScript.">
-  <meta property="og:title" content="uaimarquez · Sites simples para quem quer aprender">
-  <meta property="og:description" content="Sites simples e fáceis de usar, feitos com HTML, CSS e JavaScript.">
+  <title>Gustavo Marquez · Desenvolvimento web</title>
+  <meta name="description" content="Portfólio de Gustavo Marquez: sites fáceis de usar e automação de tarefas repetitivas.">
+  <link rel="canonical" href="https://uaimarquez.github.io/">
+  <link rel="alternate" hreflang="pt-BR" href="https://uaimarquez.github.io/">
+  <link rel="alternate" hreflang="en" href="https://uaimarquez.github.io/en/">
+  <meta property="og:title" content="Gustavo Marquez · Desenvolvimento web">
+  <meta property="og:description" content="Sites fáceis de usar e automação de tarefas repetitivas.">
   <meta property="og:type" content="website">
+  <meta property="og:url" content="https://uaimarquez.github.io/">
+  <meta property="og:image" content="https://uaimarquez.github.io/assets/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+  <meta name="twitter:card" content="summary_large_image">
   <meta name="theme-color" content="#f5f2ea">
-  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231b2bd6'/%3E%3Cpath d='M9 8v10a7 7 0 0 0 14 0V8' fill='none' stroke='white' stroke-width='3.5' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231b2bd6'/%3E%3Ctext x='16' y='23' font-family='Arial' font-weight='700' font-size='20' fill='white' text-anchor='middle'%3EG%3C/text%3E%3C/svg%3E">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
@@ -19,46 +27,59 @@
   <a class="skip" href="#conteudo">Pular para o conteúdo</a>
 
   <header class="top wrap">
-    <a class="brand" href="#inicio">uaimarquez</a>
+    <a class="brand" href="#inicio">Gustavo Marquez</a>
     <nav aria-label="Principal">
+      <a href="#sobre">Sobre</a>
       <a href="#projetos">Projetos</a>
-      <a href="#ferramentas">Ferramentas</a>
       <a href="#contato">Contato</a>
+      <a class="lang" href="en/" hreflang="en" lang="en" aria-label="Read this page in English">EN</a>
     </nav>
   </header>
 
   <main id="conteudo">
     <section class="hero wrap" id="inicio">
       <div class="hero-text">
-        <p class="eyebrow">Desenvolvimento web</p>
-        <h1>Sites que ensinam <span>sem complicar.</span></h1>
-        <p class="lead">Sou uaimarquez. Crio sites simples e fáceis de usar, para quem quer aprender sem complicação.</p>
+        <p class="eyebrow">Gustavo Marquez · Desenvolvimento web</p>
+        <h1>Tecnologia simples para <span>problemas reais.</span></h1>
+        <p class="lead">Crio sites fáceis de usar e estudo automação para tirar o trabalho repetitivo da rotina.</p>
         <div class="actions">
           <a class="btn primary" href="#projetos">Ver projetos</a>
+          <a class="btn" href="https://www.linkedin.com/in/uaimarquez/" rel="noopener">LinkedIn</a>
           <a class="btn" href="https://github.com/uaimarquez" rel="noopener">GitHub</a>
         </div>
       </div>
       <figure class="portrait">
-        <img src="assets/foto.jpg" width="400" height="400" alt="Retrato de uaimarquez, de moletom escuro, sorrindo para a câmera">
+        <img src="assets/foto.jpg" width="400" height="400" alt="Retrato de Gustavo Marquez, de moletom escuro, sorrindo para a câmera">
       </figure>
+    </section>
+
+    <section class="about wrap" id="sobre" aria-labelledby="sobre-titulo">
+      <div>
+        <p class="eyebrow">Sobre</p>
+        <h2 id="sobre-titulo">Oi, eu sou Gustavo.</h2>
+      </div>
+      <div class="about-text">
+        <p>Sou estudante e pratico desenvolvimento web. Gosto de projetos que partem de uma necessidade concreta, seja ensinar alguém a fazer algo pela primeira vez, seja acabar com uma tarefa que se repete todo mês.</p>
+        <p>Desde 2026 publico meu trabalho no GitHub. Até agora, fiz sites sobre a fé católica e comecei a estudar a automação de processos administrativos.</p>
+      </div>
     </section>
 
     <section class="projects wrap" id="projetos" aria-labelledby="projetos-titulo">
       <div class="section-head">
         <p class="eyebrow">Projetos</p>
-        <h2 id="projetos-titulo">No ar, para qualquer pessoa usar.</h2>
+        <h2 id="projetos-titulo">O problema, a solução e como funciona.</h2>
       </div>
 
       <article class="project">
         <a class="shot" href="https://uaimarquez.github.io/como-rezar-o-terco/" rel="noopener" aria-label="Abrir o site Como Rezar o Terço">
-          <img src="assets/terco.png" width="1440" height="900" loading="lazy" alt="Página inicial do site Como Rezar o Terço, com um céu claro e o título centralizado">
+          <img src="assets/terco.jpg" width="1200" height="750" loading="lazy" alt="Página inicial do site Como Rezar o Terço, com um céu claro e o título centralizado">
         </a>
         <div class="project-body">
-          <p class="index">01</p>
+          <p class="index">01 · No ar</p>
           <h3>Como Rezar o Terço</h3>
-          <p>Um guia para aprender a rezar o terço passo a passo. Cada um dos quatro conjuntos de mistérios tem suas imagens, e o Terço da Misericórdia ganhou uma página própria.</p>
+          <p>O terço tem muitas orações, e a ordem delas confunde quem está começando. O site transforma essa sequência em um passo a passo simples.</p>
           <dl class="facts">
-            <div><dt>Conteúdo</dt><dd>4 conjuntos de mistérios, 20 imagens</dd></div>
+            <div><dt>Como funciona</dt><dd>As orações abrem e fecham com um clique, para a página não ficar longa. Os mistérios são gerados a partir de uma lista em JavaScript, com os dias da semana de cada um, e a imagem muda conforme o mistério escolhido.</dd></div>
             <div><dt>Feito com</dt><dd>HTML, CSS, JavaScript</dd></div>
           </dl>
           <p class="links">
@@ -70,21 +91,37 @@
 
       <article class="project flip">
         <a class="shot" href="https://uaimarquez.github.io/NossaSenhoraAparecida/" rel="noopener" aria-label="Abrir o site Nossa Senhora Aparecida">
-          <img src="assets/aparecida.png" width="1440" height="900" loading="lazy" alt="Página inicial do site Nossa Senhora Aparecida, com título dourado sobre fundo azul-marinho">
+          <img src="assets/aparecida.jpg" width="1200" height="750" loading="lazy" alt="Página inicial do site Nossa Senhora Aparecida, com título dourado sobre fundo azul-marinho">
         </a>
         <div class="project-body">
-          <p class="index">02</p>
+          <p class="index">02 · No ar</p>
           <h3>Nossa Senhora Aparecida</h3>
-          <p>Uma página única sobre a Padroeira do Brasil, que conta a história da imagem e reúne a cronologia da devoção, a Basílica, curiosidades e orações.</p>
+          <p>Uma página única reúne a história da Padroeira do Brasil, a cronologia da devoção, a Basílica, curiosidades e orações, para ler tudo em um só lugar.</p>
           <dl class="facts">
-            <div><dt>Conteúdo</dt><dd>História, cronologia, Basílica, curiosidades, orações</dd></div>
-            <div><dt>Feito com</dt><dd>HTML</dd></div>
+            <div><dt>Como funciona</dt><dd>Tudo fica em um único arquivo, sem dependências de código. As seções aparecem durante a rolagem com IntersectionObserver, e o layout se adapta a telas pequenas.</dd></div>
+            <div><dt>Feito com</dt><dd>HTML, CSS, JavaScript</dd></div>
           </dl>
           <p class="links">
             <a href="https://uaimarquez.github.io/NossaSenhoraAparecida/" rel="noopener">Ver o site</a>
             <a href="https://github.com/uaimarquez/NossaSenhoraAparecida" rel="noopener">Código</a>
           </p>
         </div>
+      </article>
+
+      <article class="study">
+        <div class="study-head">
+          <p class="index">03 · Em desenvolvimento</p>
+          <h3>Automação do fechamento de folha doméstica</h3>
+          <p>Fechar a folha no eSocial é um trabalho manual, repetido para cada empregador da lista. O objetivo é fazer o mesmo fluxo de forma automática, sem perder o controle sobre um ato fiscal que não pode ser desfeito.</p>
+        </div>
+        <ol class="flow" aria-label="Etapas do fluxo planejado">
+          <li><strong>Ler a lista</strong><span>Pega só os dados necessários.</span></li>
+          <li><strong>Conferir</strong><span>Para se o empregador na tela não for o da lista.</span></li>
+          <li><strong>Prever</strong><span>Mostra o valor da guia sem encerrar nada.</span></li>
+          <li><strong>Encerrar</strong><span>Só com autorização explícita.</span></li>
+          <li><strong>Organizar</strong><span>Salva os PDFs e gera um relatório.</span></li>
+        </ol>
+        <p class="study-note"><strong>Cuidados previstos:</strong> simulação como padrão, parada no primeiro erro, login e CAPTCHA feitos por uma pessoa, CPFs mascarados e senhas fora dos registros. O código não é público porque o processo envolve dados pessoais reais.</p>
       </article>
     </section>
 
@@ -96,8 +133,8 @@
         </div>
         <ul class="tool-list">
           <li><strong>HTML</strong><span>A estrutura e o conteúdo das páginas.</span></li>
-          <li><strong>CSS</strong><span>O visual e a organização de cada site.</span></li>
-          <li><strong>JavaScript</strong><span>O comportamento das páginas.</span></li>
+          <li><strong>CSS</strong><span>O visual e a adaptação a diferentes telas.</span></li>
+          <li><strong>JavaScript</strong><span>Menus, orações que abrem e fecham e animações de rolagem.</span></li>
           <li><strong>Git e GitHub</strong><span>O histórico e o código dos projetos.</span></li>
           <li><strong>GitHub Pages</strong><span>A publicação dos sites na internet.</span></li>
         </ul>
@@ -116,7 +153,7 @@
   </main>
 
   <footer class="wrap foot">
-    <span>© 2026 uaimarquez</span>
+    <span>© 2026 Gustavo Marquez</span>
     <a href="#inicio">Voltar ao início ↑</a>
   </footer>
 </body>
