@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>uaimarquez · Sites simples para quem quer aprender</title>
+  <meta name="description" content="Portfólio de uaimarquez: sites simples e fáceis de usar, feitos com HTML, CSS e JavaScript.">
+  <meta property="og:title" content="uaimarquez · Sites simples para quem quer aprender">
+  <meta property="og:description" content="Sites simples e fáceis de usar, feitos com HTML, CSS e JavaScript.">
+  <meta property="og:type" content="website">
+  <meta name="theme-color" content="#f5f2ea">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231b2bd6'/%3E%3Cpath d='M9 8v10a7 7 0 0 0 14 0V8' fill='none' stroke='white' stroke-width='3.5' stroke-linecap='round'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Mono:wght@400;500&family=Instrument+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="top wrap">
+    <a class="brand" href="#inicio">uaimarquez</a>
+    <nav aria-label="Principal">
+      <a href="#projetos">Projetos</a>
+      <a href="#ferramentas">Ferramentas</a>
+      <a href="#contato">Contato</a>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero wrap" id="inicio">
+      <div class="hero-text">
+        <p class="eyebrow">Desenvolvimento web</p>
+        <h1>Sites que ensinam <span>sem complicar.</span></h1>
+        <p class="lead">Sou uaimarquez. Crio sites simples e fáceis de usar, para quem quer aprender sem complicação.</p>
+        <div class="actions">
+          <a class="btn primary" href="#projetos">Ver projetos</a>
+          <a class="btn" href="https://github.com/uaimarquez" rel="noopener">GitHub</a>
+        </div>
+      </div>
+      <figure class="portrait">
+        <img src="assets/foto.jpg" width="400" height="400" alt="Retrato de uaimarquez, de moletom escuro, sorrindo para a câmera">
+      </figure>
+    </section>
+
+    <section class="projects wrap" id="projetos" aria-labelledby="projetos-titulo">
+      <div class="section-head">
+        <p class="eyebrow">Projetos</p>
+        <h2 id="projetos-titulo">No ar, para qualquer pessoa usar.</h2>
+      </div>
+
+      <article class="project">
+        <a class="shot" href="https://uaimarquez.github.io/como-rezar-o-terco/" rel="noopener" aria-label="Abrir o site Como Rezar o Terço">
+          <img src="assets/terco.png" width="1440" height="900" loading="lazy" alt="Página inicial do site Como Rezar o Terço, com um céu claro e o título centralizado">
+        </a>
+        <div class="project-body">
+          <p class="index">01</p>
+          <h3>Como Rezar o Terço</h3>
+          <p>Um guia para aprender a rezar o terço passo a passo. Cada um dos quatro conjuntos de mistérios tem suas imagens, e o Terço da Misericórdia ganhou uma página própria.</p>
+          <dl class="facts">
+            <div><dt>Conteúdo</dt><dd>4 conjuntos de mistérios, 20 imagens</dd></div>
+            <div><dt>Feito com</dt><dd>HTML, CSS, JavaScript</dd></div>
+          </dl>
+          <p class="links">
+            <a href="https://uaimarquez.github.io/como-rezar-o-terco/" rel="noopener">Ver o site</a>
+            <a href="https://github.com/uaimarquez/como-rezar-o-terco" rel="noopener">Código</a>
+          </p>
+        </div>
+      </article>
+
+      <article class="project flip">
+        <a class="shot" href="https://uaimarquez.github.io/NossaSenhoraAparecida/" rel="noopener" aria-label="Abrir o site Nossa Senhora Aparecida">
+          <img src="assets/aparecida.png" width="1440" height="900" loading="lazy" alt="Página inicial do site Nossa Senhora Aparecida, com título dourado sobre fundo azul-marinho">
+        </a>
+        <div class="project-body">
+          <p class="index">02</p>
+          <h3>Nossa Senhora Aparecida</h3>
+          <p>Uma página única sobre a Padroeira do Brasil, que conta a história da imagem e reúne a cronologia da devoção, a Basílica, curiosidades e orações.</p>
+          <dl class="facts">
+            <div><dt>Conteúdo</dt><dd>História, cronologia, Basílica, curiosidades, orações</dd></div>
+            <div><dt>Feito com</dt><dd>HTML</dd></div>
+          </dl>
+          <p class="links">
+            <a href="https://uaimarquez.github.io/NossaSenhoraAparecida/" rel="noopener">Ver o site</a>
+            <a href="https://github.com/uaimarquez/NossaSenhoraAparecida" rel="noopener">Código</a>
+          </p>
+        </div>
+      </article>
+    </section>
+
+    <section class="tools" id="ferramentas" aria-labelledby="ferramentas-titulo">
+      <div class="wrap">
+        <div class="section-head">
+          <p class="eyebrow">Ferramentas</p>
+          <h2 id="ferramentas-titulo">O que uso nos meus projetos.</h2>
+        </div>
+        <ul class="tool-list">
+          <li><strong>HTML</strong><span>A estrutura e o conteúdo das páginas.</span></li>
+          <li><strong>CSS</strong><span>O visual e a organização de cada site.</span></li>
+          <li><strong>JavaScript</strong><span>O comportamento das páginas.</span></li>
+          <li><strong>Git e GitHub</strong><span>O histórico e o código dos projetos.</span></li>
+          <li><strong>GitHub Pages</strong><span>A publicação dos sites na internet.</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="contact wrap" id="contato" aria-labelledby="contato-titulo">
+      <p class="eyebrow">Contato</p>
+      <h2 id="contato-titulo">Vamos conversar?</h2>
+      <p class="lead">Fale comigo pelo LinkedIn ou veja meu código no GitHub.</p>
+      <div class="big-links">
+        <a class="big-link" href="https://www.linkedin.com/in/uaimarquez/" rel="noopener">LinkedIn <span aria-hidden="true">↗</span></a>
+        <a class="big-link" href="https://github.com/uaimarquez" rel="noopener">GitHub <span aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap foot">
+    <span>© 2026 uaimarquez</span>
+    <a href="#inicio">Voltar ao início ↑</a>
+  </footer>
+</body>
+</html>
